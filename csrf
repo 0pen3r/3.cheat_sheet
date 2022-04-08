@@ -58,6 +58,13 @@ xhr.send('{"role":admin}');
 참고 : https://trustfoundry.net/did-default-samesitelax-put-the-nail-in-the-coffin-for-csrf-mostly-but-not-always/
 
 
+대응방안
+1. 요약 : 사용자의 요청 || CSRF 주의 서비스에 대한 서버측 검증 필요
+- CSRF Token 사용 : 요청 시, 난수 토큰 활용 서버측 검증
+- CAPCHA : 위와 유사, effort up
+- 더있을듯.
+
+참고 : https://doctorson0309.tistory.com/605
 
 
 
